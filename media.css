@@ -1,0 +1,51 @@
+/* media for header, navigate menu */
+
+@media (max-width: 1316px) {
+	.item_nav, .bths_cont, .bth_2  {
+		display: none;
+	}
+	.navigate {
+		margin-bottom: 500px;
+		padding-top: 10px;
+	}
+	.im_hd_main {
+		margin-bottom: 100px;
+	}
+	.services_call {
+		margin-top: 400px;
+	}
+	.main_block_hd {
+		display: block;
+	}
+	.lt_text {
+		display: block;
+	}
+	.lt_text > h2 {
+		font-size: 36px;
+	}
+	.tt_ab_hd {
+		display: none;
+	}
+	.im_hd_main {
+		position: absolute;
+		bottom: -10%;
+		right: -21%
+	}
+}
+	
+	/* media for cards */
+
+	@media (max-width: 1316px) {
+		.card_collumn {
+			flex-direction: column;
+			display: block;
+			margin-left: 330px;
+			overflow-y: hidden;
+		}
+		.main_card_per {
+			margin-bottom: 50px;
+		}
+		.per_img > img {
+			src: url(MaskgroupM\ \(3\).png);
+		}
+	}
